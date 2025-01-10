@@ -615,6 +615,24 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   padding: 12px 0;
 }
 
+
+.banner {
+  display: flex;
+  justify-content: center; /* Horizontally centers the image */
+  align-items: center;    /* Vertically centers the image */
+  height: 100vh;          /* Makes the banner fill the viewport height */
+  background-color: #f8f8f8; /* Optional: Adds a background color to the banner */
+}
+
+.ektabanner {
+  max-width: 100%; /* Ensures the image scales responsively */
+  height: auto;    /* Maintains the image's aspect ratio */
+  display: block; 
+  padding-left: 100px;
+  margin-left: 10px;/* Removes extra space below the image */
+}
+
+
 .accordion-menu.active .caret-back { transform: rotate(-0.25turn); }
 
 .menu-bottom .submenu-category-list {
